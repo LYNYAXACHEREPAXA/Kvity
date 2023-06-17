@@ -15,7 +15,17 @@ nav{
 nav a{
     color: white;
     text-decoration: 0;
-    font-size:30px;
+    font-size:27px;
+    padding: 1%;
+    text-shadow: 2px 5px 5px #022b0d;
+    transition: 0.2s;
+    box-shadow: none;
+}
+nav a:hover{
+     text-shadow: 2px 10px 10px #022b0d;
+     transition: 0.3s;
+     transform: scale(1.1);
+     box-shadow: none;
 }
 .strilka{
     position: fixed;
