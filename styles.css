@@ -87,6 +87,12 @@ div{
 footer img {
     width: 50px;
     height: 50px;
+    transition: 0.2s;
+}
+footer img:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+    padding: 5px;
 }
 footer{
     display:flex;
@@ -95,4 +101,11 @@ footer{
     background-color: #278508;
     padding:2%;
     color: white;
+     text-shadow: 2px 5px 5px #022b0d;
+    transition: 0.2s;
+}
+footer p:hover{
+     text-shadow: 2px 10px 10px #022b0d;
+     transition: 0.3s;
+
 }
